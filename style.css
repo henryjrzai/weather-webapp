@@ -183,4 +183,8 @@ header img {
     .item {
         display: none;
     }
+
+    .container {
+        width: 85%;
+    }
 }
