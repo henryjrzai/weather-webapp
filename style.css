@@ -139,6 +139,7 @@ header img {
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
     color: white;
+    text-align: center;
 }
 
 .weather h3{
