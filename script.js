@@ -57,7 +57,7 @@ searchButton.addEventListener("click", () => {
     .then((response) => {
       const result = document.querySelector(".result");
       if (response.cod === "404") {
-        image.src = "";
+        image.src = "img/404-error.png";
         temperature.innerHTML = "";
         defaultValue.innerHTML = "";
         description.innerHTML = "";
