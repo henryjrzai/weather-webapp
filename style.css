@@ -150,6 +150,27 @@ header img {
     width: 8.125rem;
     border: none;
     background-color: transparent;
+    animation: popUp 1s ease-in infinite alternate;
+}
+
+@keyframes popUp {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-5%);
+    }
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .description {
